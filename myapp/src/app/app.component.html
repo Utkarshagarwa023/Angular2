@@ -13,5 +13,39 @@
 </p>
 
 <p>
-    <button (click)  "add()">ADD</button>
+    <button (click)="add()">ADD</button>
 </p>
+<br> <br> <br> <br> <br>
+
+<p>
+    Physics : 
+    <input [value]="physics">
+  </p>
+  
+  <p>
+      chemistry : 
+      <input [value]="chemistry">
+  </p>
+
+  <p>
+      Maths : 
+      <input [value]="maths">
+  </p>
+
+  <p>
+      Hindi : 
+      <input [value]="hindi">
+  </p>
+
+  <p>
+      English : 
+      <input [value]="english">
+  </p>
+  
+  <p>
+    Average Marks = {{avg}}
+  </p>
+  
+  <p>
+      <button (click)="average()">AVG</button>
+  </p>

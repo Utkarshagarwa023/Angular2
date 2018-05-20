@@ -15,4 +15,17 @@ export class AppComponent {
     alert("HI")
     this.c = parseInt(this.a)+parseInt(this.b);
   }
+
+  private physics : string = "75";
+  private chemistry : string = "80";
+  private maths : string = "93";
+  private hindi : string = "82";
+  private english : string = "75";
+  private avg : number;
+
+average(){
+  alert("hi")
+  this.avg = (parseFloat(this.physics)+parseFloat(this.chemistry)+parseFloat(this.maths)+parseFloat(this.hindi)+parseFloat(this.english))/5;
+}
+
 }
